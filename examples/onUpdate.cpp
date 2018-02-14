@@ -14,7 +14,7 @@
 
 #define SLEEP delay(16)
 
-NESController c;
+NESController c
 
 void setup() {
     NESDriver.begin(LATCH_PIN, CLOCK_PIN, DATA0_PIN, DATA1_PIN);
